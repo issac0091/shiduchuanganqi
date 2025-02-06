@@ -19,6 +19,7 @@ basic.forever(function () {
 })
 basic.forever(function () {
     OLED.newLine()
+    OLED.newLine()
     OLED.writeString("H:")
     OLED.writeNum(h)
     OLED.writeString(" %")
