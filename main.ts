@@ -14,7 +14,7 @@ basic.forever(function () {
     OLED.writeString("T:")
     OLED.writeNum(t)
     OLED.writeString(" *C")
-    basic.pause(1500)
+    basic.pause(2000)
     OLED.clear()
 })
 basic.forever(function () {
@@ -23,7 +23,7 @@ basic.forever(function () {
     OLED.writeString("H:")
     OLED.writeNum(h)
     OLED.writeString(" %")
-    basic.pause(1500)
+    basic.pause(2000)
     OLED.clear()
 })
 basic.forever(function () {
